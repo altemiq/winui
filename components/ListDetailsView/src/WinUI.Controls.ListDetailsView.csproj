@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net9.0-windows10.0.19041.0;net8.0-windows10.0.19041.0;net9.0</TargetFrameworks>
+	<TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <UseWinUI>true</UseWinUI>
+    <WinUISDKReferences>false</WinUISDKReferences>
+    <RootNamespace>Altemiq.WinUI.Controls</RootNamespace>
+    <AssemblyName>Altemiq.$(MSBuildProjectName)</AssemblyName>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Altemiq.DotNet.CodingStandard" Version="1.0.173">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="CommunityToolkit.WinUI.Extensions" Version="8.2.250402" />
+  </ItemGroup>
+  
+</Project>

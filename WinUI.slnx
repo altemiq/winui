@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/components/" />
+  <Folder Name="/components/ListDetailsView/">
+    <Project Path="components/ListDetailsView/samples/ListDetailsView.Samples.csproj" Id="faa48655-9bb3-450b-b6dc-4b5ecf32b5d0">
+      <Platform Project="x64" />
+      <Deploy />
+    </Project>
+    <Project Path="components/ListDetailsView/src/WinUI.Controls.ListDetailsView.csproj" Id="2098a1fe-28c8-4847-9dc1-77f5b0364744" />
+    <Project Path="components/ListDetailsView/tests/ListDetailsView.Tests.csproj" Id="30b3e135-2d38-4ff9-b519-c50f56c53c71">
+      <Platform Project="x64" />
+      <Deploy />
+    </Project>
+  </Folder>
+</Solution>
