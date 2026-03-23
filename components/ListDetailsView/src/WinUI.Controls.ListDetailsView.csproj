@@ -5,9 +5,11 @@
 	<TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <UseWinUI>true</UseWinUI>
     <WinUISDKReferences>false</WinUISDKReferences>
-    <RootNamespace>Altemiq.WinUI.Controls</RootNamespace>
-    <AssemblyName>Altemiq.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(RootNamespace.Replace('.ListDetailsView' ,''))</RootNamespace>
 	<Nullable>enable</Nullable>
+	<LangVersion>latest</LangVersion>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +17,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="CommunityToolkit.WinUI.Extensions" Version="8.2.250402" />
+    <PackageReference Include="CommunityToolkit.WinUI.Extensions" Version="8.0.230907" />
   </ItemGroup>
   
 </Project>

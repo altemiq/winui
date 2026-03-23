@@ -9,7 +9,7 @@ namespace Altemiq.WinUI.Controls;
 /// <summary>
 /// The <see cref="ListDetailsViewState"/> changed <see cref="EventArgs"/>.
 /// </summary>
-public class ViewStateChangedEventArgs : System.EventArgs
+public class ViewStateChangedEventArgs : EventArgs
 {
     /// <summary>
     /// Gets the view state.

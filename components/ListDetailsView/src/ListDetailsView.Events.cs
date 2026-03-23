@@ -6,7 +6,6 @@
 
 namespace Altemiq.WinUI.Controls;
 
-using System;
 using Microsoft.UI.Xaml.Controls;
 
 /// <summary>
